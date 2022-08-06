@@ -14,12 +14,12 @@
         
         其中 $lowbit(i)$ 為 $i$ 轉為二進位後最後一個 $1$ 所代表的數值，$lowbit(12)=(1100)_{2}=4$，代表BIT[12]儲存的是 A[9:12] 的總和
         
-        ![Untitled](img/Binary%20Indexed%20Tree%20b0ff5bda130f4672892ce26c3f8f235b.jpeg)
+        ![Untitled](https://github.com/D13Ding/writeups/blob/main/Data%20structure/img/Binary%2520Indexed%2520Tree%2520.jpeg)
         
 - 實作：
     - $lowbit()$
         
-        以 $14$ 為例，$14$ 的Bitwise NOT為$(0001)_2$，加 $1$ 後為$(0010)_2$，最後將 $(0010)_2 \text{Bitwise AND} (1110)_2=(10)_2$，  $lowbit(14)=2$  
+        以 $14$ 為例，$14$ 的Bitwise NOT為$(0001)_2$，加 $1$ 後為$(0010)_2$，最後將 $(0010)_2 \text{ AND } (1110)_2=(10)_2$，  $lowbit(14)=2$  
         
         ```cpp
         int lowbit (int i){
