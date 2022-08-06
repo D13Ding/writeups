@@ -12,7 +12,7 @@
         1. $A$ 儲存各元素
         2. $BIT$ 儲存特定元素的總和，$BIT_i=\sum^i_{j=i-lowbit(i)+1}A_j$
         
-        其中 $lowbit(i)$ 為 $i$ 轉為二進位後最後一個 $1$ 所代表的數值，$lowbit(12)=(1100)_{2}=4$，代表BIT[12]儲存的是 A[9:12] 的總和
+        其中 $lowbit(i)$ 為 $i$ 轉為二進位後最後一個 $1$ 所代表的數值，$lowbit(12)=(1100)_{2}=4$ ，代表BIT[12]儲存的是 A[9:12] 的總和
         
         ![Untitled](https://github.com/D13Ding/writeups/blob/main/Data%20structure/img/Binary%2520Indexed%2520Tree%2520.jpeg)
         
